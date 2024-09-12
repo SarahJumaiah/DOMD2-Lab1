@@ -1,0 +1,11 @@
+.btnafter1:hover::after {
+    content: "Text";
+ }
+
+ .btnafter2:hover::after {
+    content: "Text";
+ }
+
+ .btnafter3:hover::after {
+    content: "Text";
+ }
