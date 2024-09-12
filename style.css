@@ -1,11 +1,37 @@
-.btnafter1:hover::after {
-    content: "Text";
- }
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
 
- .btnafter2:hover::after {
-    content: "Text";
- }
+.box {
+    display: flex;
+    gap: 20px;
+}
 
- .btnafter3:hover::after {
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    background-color: #6200ea;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+.btnafter1:hover::after, .btnafter2:hover::after {
     content: "Text";
- }
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
